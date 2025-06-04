@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/2e5107f23f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/logo-green.png">
+    <title>Nature's Platter</title>
+</head>
+<body class="bg-gray-100">
+    <!--start header-->
+    <header class="bg-[#fefbf5]">
+      <nav class="mx-auto px-4 py-4 flex justify-between items-center shadow-md ">
+       <img src="assets/logo-green.png" alt="logo"> 
+       <div class="hidden md:flex items-center space-x-8 text-ellipsis text-2xl font-sans font-semibold ">
+        <a href="#" class="hover:text-green-500">Product</a>
+        <a href="#" class="hover:text-green-500">Services</a>
+        <a href="#" class="hover:text-green-500">Contact us</a>
+       </div>
+       <div  class="hidden md:flex justify-between items-center space-x-8 text-2xl font-sans font-semibold cursor-pointer">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-plus"></i>
+        <button class="border-2 border-green-500 pt-1 pl-5 pb-1 pr-5 rounded-md hover:text-white hover:bg-green-500">Login</button>
+        <button class="border-2 border-green-500 bg-green-500 pt-1 pl-5 pb-1 pr-5 rounded-md text-white hover:text-white hover:bg-green-700">Register</button>
+       </div>
+       <div class="md:hidden flex items-center">
+        <button id="menu-toggle" class="text-gray-500 focus:outline-none text-2xl">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+       </div>
+      </nav>
+    </header>
+    <!--end header-->
+
+    <!--start hero section-->
+<section class="bg-gradient-to-b from-[#fefcf7] to-[#f2eadf] pt-16 px-4 md:px-0 text-center">
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-5xl md:text-7xl font-bold leading-tight text-gray-900">
+      Freshness <span class="text-green-600">You Can Count</span> On, Prices You’ll Love!
+    </h1>
+    <p class="mt-4 text-gray-600 text-lg md:text-2xl">
+      Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+    </p>
+  </div>
+  <div class="mt-12">
+    <img src="assets/hero-img.png" alt="Vegetables" class="mx-auto w-full max-w-4xl">
+  </div>
+</section>
+
+    <!--end hero section-->
+<!--start service section-->
+<section>
+    <div class="bg-white py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto mt-14 mb-14">
+            <h2 class="text-5xl font-bold text-center text-green-500 mb-15">Services</h2>
+        
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-18">
+                <!-- 24/7 Services -->
+                <div class="bg-[#f2eadf] items-center text-center p-6 rounded-2xl shadow-lg transition duration-500 hover:scale-110">
+                    <img src="assets/support.png" alt="" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-4">24/7 Services</h3>
+                    <p class="text-gray-600">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    </p>
+                </div>
+        
+                <!-- Fast Delivery -->
+                <div class="bg-[#f2eadf] items-center text-center p-6 rounded-2xl shadow-lg transition duration-500 hover:scale-110">
+                    <img src="assets/fast-delivery.png" alt="" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-4">Fast Delivery</h3>
+                    <p class="text-gray-600">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    </p>
+                </div>
+        
+                <!-- 100% Healthy Products -->
+                <div class="bg-[#f2eadf] items-center text-center p-6 rounded-2xl shadow-lg transition duration-500 hover:scale-110">
+                    <img src="assets/healthy-100.png" alt="" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-4">100% Healthy Products</h3>
+                    <p class="text-gray-600">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end service section-->
+
+
+<!--start product section-->
+<section class="bg-[#f2eadf]">
+    <div class=" py-12 px-4" >
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-green-500 text-5xl font-bold text-center mb-15">Popular Products</h1>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <!-- Product Item - Repeat this block for each product -->
+      <div class=" bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-onion.png" alt="Onion" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Onion 1 KG</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+      <!-- End Product Item -->
+
+      <!-- Duplicate and modify for each product -->
+      <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-onion.png" alt="Onion" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Onion 1 KG</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+      <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-tomato.png" alt="Tomato" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Tomato 1 KG</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+      <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-tomato.png" alt="Tomato 500g" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Tomato 500 g</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+      <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-tomato.png" alt="Tomato 500g" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Tomato 500 g</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+      <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-potato.png" alt="Potato" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Potato 1 KG</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+      <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-potato.png" alt="Potato" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Potato 1 KG</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+      <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-tomato.png" alt="Tomato" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Tomato 500 g</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+      <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-potato.png" alt="Potato" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Potato 1 KG</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+       <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-potato.png" alt="Potato" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Potato 1 KG</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+       <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-onion.png" alt="Onion" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Onion 1 KG</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+       <div class="bg-white border rounded-lg p-3 hover:shadow-2xl transition-all">
+        <div class="flex items-center mb-1">
+          <span class="text-yellow-400">★</span>
+          <span class="text-sm ml-1">4.5</span>
+        </div>
+        <img src="/assets/product-potato.png" alt="Potato" class="w-full h-32 object-contain mb-2">
+        <h3 class="font-medium">Potato 1 KG</h3>
+        <p class="text-green-600 font-bold">$39.99</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</section>
+<!--end product section-->
+
+<!-- Arrival & Offers Section -->
+<section class="px-6 py-10 bg-white">
+  <div class="md:m-20">
+          <h2 class="text-green-500 text-5xl font-bold mb-18 text-center">Arrival & Offers</h2>
+        <div class="flex gap-5 flex-col lg:flex-row gap-8">
+          <!-- Daawat Offer Card -->
+          <div class="flex flex-row items-center justify-evenly bg-green-900 text-white rounded-2xl p-6 flex-1 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-95">
+            <div class="space-y-4 items-center">
+              <img src="assets/dawat-logo.png" alt="Daawat Logo" class="w-50">
+              <button class="bg-green-500 text-white text-lg md:text-xl font-semibold px-4 py-2 rounded hover:bg-white hover:text-green-950  transition-all duration-300 hover:scale-105">Cook Exotic Dishes</button>
+              <p class="text-2xl md:text-4xl font-bold">UP to <span class="text-white">20% OFF</span></p>
+            </div>
+            <img src="assets/product-dawat.png" alt="Daawat Product" class=" max-w-[150px] md:max-w-[250px] mt-6 md:mt-0">
+          </div>
+
+          <!-- India Gate Offer Card -->
+          <div class="flex flex-row items-center justify-evenly bg-blue-900 text-white rounded-2xl p-6 flex-1 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-95">
+            <div class="space-y-4 items-center">
+              <img src="assets/indiagate-logo.png" alt="India Gate Logo" class="w-auto md:w-30">
+              <button class="bg-blue-500 text-white text-lg md:text-xl font-semibold px-4 py-2 rounded hover:bg-white hover:text-blue-950  transition-all duration-300 hover:scale-105">World’s No.1 Rice</button>
+              <p class="text-2xl md:text-3xl font-bold">UP to <span class="text-white">40% OFF</span></p>
+            </div>
+            <img src="assets/product-indiagate.png" alt="India Gate Product" class="max-w-[100px] md:max-w-[250px] mt-6 md:mt-0">
+          </div>
+        </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Newsletter Section -->
+<section class="px-4 sm:px-6" style="height: auto; background: linear-gradient(to bottom, white 0%, white 50%, #15803d 50%, #15803d 100%);">
+  <div class="max-w-6xl mx-auto bg-[#f2eadf] p-6 sm:p-8 rounded-2xl shadow-lg flex flex-col md:flex-row items-center gap-6">
+    <img src="assets/fruit-basket.png" alt="Fruit Basket" class="w-32 sm:w-40">
+    <div class="flex-1 text-center md:text-left">
+      <h3 class="text-xl sm:text-2xl font-bold mb-2">Get Grocery News!</h3>
+      <p class="text-gray-600 mb-4 text-sm sm:text-base">Exclusive training tips, tricks, product deals and more.</p>
+      <div class="flex flex-col sm:flex-row gap-2 justify-center md:justify-start w-full">
+        <input type="email" placeholder="Enter email..." class="px-4 py-2 border rounded w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-green-500">
+        <button class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 w-full sm:w-auto">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-green-700 text-white py-10 px-4 sm:px-6">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+    <div>
+      <img src="assets/logo-white.png" alt="nature platar" class="w-32 sm:w-36">
+      <p class="mt-3 text-sm sm:text-base">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2 text-base sm:text-lg">Product</h3>
+      <ul class="space-y-1 text-sm sm:text-base">
+        <li><a href="#" class="hover:text-black">Categories</a></li>
+        <li><a href="#" class="hover:text-black">New Arrivals</a></li>
+        <li><a href="#" class="hover:text-black">Featured</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2 text-base sm:text-lg">Services</h3>
+      <ul class="space-y-1 text-sm sm:text-base">
+        <li><a href="#" class="hover:text-black">Delivery</a></li>
+        <li><a href="#" class="hover:text-black">Membership</a></li>
+        <li><a href="#" class="hover:text-black">Support</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2 text-base sm:text-lg">Contact us</h3>
+      <ul class="space-y-1 text-sm sm:text-base">
+        <li><a href="#" class="hover:text-black">About</a></li>
+        <li><a href="#" class="hover:text-black">Help Center</a></li>
+        <li><a href="#" class="hover:text-black">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mt-8 border-t border-white/30 pt-6 flex flex-col md:flex-row justify-between items-center text-sm sm:text-base gap-4">
+    <p>© 2025 Nature's Platter. All rights reserved.</p>
+    <div class="flex items-center space-x-3">
+      <span class="font-bold">Follow Us</span>
+      <a href="#" class="hover:text-black">FB</a>
+      <a href="#" class="hover:text-black">IG</a>
+      <a href="#" class="hover:text-black">YT</a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
